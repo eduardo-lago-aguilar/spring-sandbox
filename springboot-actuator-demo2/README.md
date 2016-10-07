@@ -1,7 +1,7 @@
-# Spring Boot Actuator Demo 1
+# Spring Boot Actuator Demo 2
 
 ## Goal 
-Bootstrap an Spring Boot REST service with complementary health service 
+Bootstrap an Spring Boot REST service with complementary health service.  
 
 ## Launch using Maven:
 
@@ -11,6 +11,7 @@ Bootstrap an Spring Boot REST service with complementary health service
 `$ java -jar target/springboot-demo1-0.0.1-SNAPSHOT.jar`
 
 ## Test it
+Returns a hash `Greeting` message instead of an string like Demo 1 
 ```
 $ curl http://localhost:8080
 {"id":123,"message":"Hello world YES!!"}

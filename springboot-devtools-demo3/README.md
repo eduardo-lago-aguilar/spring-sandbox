@@ -1,4 +1,4 @@
-# Spring Boot Actuator Demo 1
+# Spring Boot Dev Tools Demo 3
 
 ## Goal 
 Bootstrap an Spring Boot REST service with hotswapping capabilities 

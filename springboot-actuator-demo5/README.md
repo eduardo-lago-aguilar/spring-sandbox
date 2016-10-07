@@ -140,6 +140,7 @@ $ curl http://localhost:3000/dump
 	},
 ...
 }
+```
 
 ### env
 Retrieves the Spring properties
@@ -189,5 +190,5 @@ This endpoint provides the details of any liquibase database migrations have bee
 ## Change settings
 Change Actuator management settings at `src/main/resources/application.properties`
 
-## Chage security settings
+## Change security settings
 Actuator security settings can customized at `src/main/resources/application.properties`
