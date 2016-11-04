@@ -1,16 +1,14 @@
 package ae;
 
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
 
 @Service
+@Primary
 public class GreetingsServiceImpl implements GreetingsService {
 
-	// @Autowired
-	// private CounterService counter;
-
+	@Override
 	public String greeting() {
-		// a la old fashioned
-		// counter.increment("greetings_call_counter");
 		return "Hi";
 	}
 }
