@@ -22,4 +22,4 @@ $ watch curl http://localhost:8080
 {"id":123,"message":"Hello world YES!!"}
 ```
 
-Then change the `HelloController#sayHi()` return message, and save (using Eclipse), the changes should be reloaded.
+Then change the `HelloController#sayHi()` return message, and save (using Eclipse), the changes should be reloaded. For IntelliJ check for [Intellij IDEA – Spring boot template reload is not working](https://www.mkyong.com/spring-boot/intellij-idea-spring-boot-template-reload-is-not-working/)
