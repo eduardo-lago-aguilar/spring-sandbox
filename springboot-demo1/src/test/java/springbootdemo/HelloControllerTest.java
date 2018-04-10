@@ -23,9 +23,9 @@ public class HelloControllerTest {
 	private MockMvc mvc;
 
 	@Test
-	public void get_hello() throws Exception {
+	public void rootReturnsGreetingsMessage() throws Exception {
 		mvc.perform(get("/").accept(APPLICATION_JSON))
 				.andExpect(status().isOk())
-				.andExpect(content().string(equalTo("Hello world!")));
+				.andExpect(content().string(equalTo("Hi everyone, life is gift!")));
 	}
 }
